@@ -1,0 +1,25 @@
+pkgbase = butt
+	pkgdesc = Easy to use, multi OS streaming tool
+	pkgver = 1.41.1
+	pkgrel = 1
+	url = https://danielnoethen.de/butt/
+	arch = i686
+	arch = x86_64
+	arch = aarch64
+	arch = armv7h
+	license = GPL2
+	depends = fltk
+	depends = dbus
+	depends = portaudio
+	depends = portmidi
+	depends = libfdk-aac
+	depends = libvorbis
+	depends = libogg
+	depends = lame
+	depends = flac
+	depends = opus
+	depends = libsamplerate
+	source = butt-1.41.1.tar.gz::https://danielnoethen.de/butt/release/1.41.1/butt-1.41.1.tar.gz
+	sha256sums = cbf5c87059b54d655de522fe903089736d42b4cc22a4c420444e203eb6b9fbdf
+
+pkgname = butt
